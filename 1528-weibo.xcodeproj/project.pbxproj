@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C06DBB41B5E714C0065FD3B /* YFNewfeatureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C06DBB31B5E714C0065FD3B /* YFNewfeatureVC.m */; };
+		5C103B9C1B511B74007B423B /* YFNavigationCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C103B9B1B511B74007B423B /* YFNavigationCtl.m */; };
+		5C400EF81B63612200692990 /* YFOAuthVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C400EF71B63612200692990 /* YFOAuthVC.m */; };
+		5C46A0521B4E16E4007661A4 /* YFTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C46A0511B4E16E4007661A4 /* YFTestVC.m */; };
+		5C4F5E1B1B5282CF00D7A36F /* UIBarButtonItem+YF.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F5E1A1B5282CF00D7A36F /* UIBarButtonItem+YF.m */; };
+		5C4F5E1E1B5289B300D7A36F /* YFSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F5E1D1B5289B300D7A36F /* YFSearchBar.m */; };
+		5C4F5E211B52907500D7A36F /* IWSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F5E201B52907500D7A36F /* IWSearchBar.m */; };
+		5C99B0CA1B5A63B700A67EAF /* YFTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C99B0C91B5A63B700A67EAF /* YFTitleButton.m */; };
 		5CB0F8891B44D86E00E5A992 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB0F8881B44D86E00E5A992 /* main.m */; };
-		5CB0F88C1B44D86E00E5A992 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB0F88B1B44D86E00E5A992 /* AppDelegate.m */; };
-		5CB0F88F1B44D86E00E5A992 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB0F88E1B44D86E00E5A992 /* ViewController.m */; };
 		5CB0F8921B44D86E00E5A992 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB0F8901B44D86E00E5A992 /* Main.storyboard */; };
 		5CB0F8941B44D86E00E5A992 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB0F8931B44D86E00E5A992 /* Images.xcassets */; };
 		5CB0F8971B44D86F00E5A992 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CB0F8951B44D86F00E5A992 /* LaunchScreen.xib */; };
 		5CB0F8A31B44D86F00E5A992 /* _528_weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB0F8A21B44D86F00E5A992 /* _528_weiboTests.m */; };
+		5CE463961B4D5494007A197B /* YFBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE463951B4D5494007A197B /* YFBadgeButton.m */; };
+		5CE820E01B48FC2A00E741D0 /* YFDiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE820C11B48FC2A00E741D0 /* YFDiscoverVC.m */; };
+		5CE820E11B48FC2A00E741D0 /* YFHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE820C71B48FC2A00E741D0 /* YFHomeVC.m */; };
+		5CE820E21B48FC2A00E741D0 /* YFTabbarViewCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE820CD1B48FC2A00E741D0 /* YFTabbarViewCtl.m */; };
+		5CE820E31B48FC2A00E741D0 /* YFMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE820D31B48FC2A00E741D0 /* YFMeVC.m */; };
+		5CE820E41B48FC2A00E741D0 /* YFMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE820D91B48FC2A00E741D0 /* YFMessageVC.m */; };
+		5CE820E51B48FC2A00E741D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE820DE1B48FC2A00E741D0 /* AppDelegate.m */; };
+		5CE820E81B48FD2700E741D0 /* UIImage+YF.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE820E71B48FD2700E741D0 /* UIImage+YF.m */; };
+		5CE820EB1B4901CA00E741D0 /* YFTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE820EA1B4901CA00E741D0 /* YFTabbar.m */; };
+		5CE820EE1B4910E500E741D0 /* YFTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE820ED1B4910E500E741D0 /* YFTabBarButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +43,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C06DBB21B5E714C0065FD3B /* YFNewfeatureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFNewfeatureVC.h; sourceTree = "<group>"; };
+		5C06DBB31B5E714C0065FD3B /* YFNewfeatureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFNewfeatureVC.m; sourceTree = "<group>"; };
+		5C103B9A1B511B74007B423B /* YFNavigationCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFNavigationCtl.h; sourceTree = "<group>"; };
+		5C103B9B1B511B74007B423B /* YFNavigationCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFNavigationCtl.m; sourceTree = "<group>"; };
+		5C400EF61B63612200692990 /* YFOAuthVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFOAuthVC.h; sourceTree = "<group>"; };
+		5C400EF71B63612200692990 /* YFOAuthVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFOAuthVC.m; sourceTree = "<group>"; };
+		5C46A0501B4E16E4007661A4 /* YFTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFTestVC.h; sourceTree = "<group>"; };
+		5C46A0511B4E16E4007661A4 /* YFTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFTestVC.m; sourceTree = "<group>"; };
+		5C4F5E191B5282CF00D7A36F /* UIBarButtonItem+YF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+YF.h"; sourceTree = "<group>"; };
+		5C4F5E1A1B5282CF00D7A36F /* UIBarButtonItem+YF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+YF.m"; sourceTree = "<group>"; };
+		5C4F5E1C1B5289B300D7A36F /* YFSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFSearchBar.h; sourceTree = "<group>"; };
+		5C4F5E1D1B5289B300D7A36F /* YFSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFSearchBar.m; sourceTree = "<group>"; };
+		5C4F5E1F1B52907500D7A36F /* IWSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWSearchBar.h; sourceTree = "<group>"; };
+		5C4F5E201B52907500D7A36F /* IWSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWSearchBar.m; sourceTree = "<group>"; };
+		5C99B0C81B5A63B700A67EAF /* YFTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFTitleButton.h; sourceTree = "<group>"; };
+		5C99B0C91B5A63B700A67EAF /* YFTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFTitleButton.m; sourceTree = "<group>"; };
 		5CB0F8831B44D86E00E5A992 /* 1528-weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1528-weibo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB0F8871B44D86E00E5A992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CB0F8881B44D86E00E5A992 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5CB0F88A1B44D86E00E5A992 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5CB0F88B1B44D86E00E5A992 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5CB0F88D1B44D86E00E5A992 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5CB0F88E1B44D86E00E5A992 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5CB0F8911B44D86E00E5A992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5CB0F8931B44D86E00E5A992 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5CB0F8961B44D86F00E5A992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5CB0F89C1B44D86F00E5A992 /* 1528-weiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1528-weiboTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB0F8A11B44D86F00E5A992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CB0F8A21B44D86F00E5A992 /* _528_weiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _528_weiboTests.m; sourceTree = "<group>"; };
+		5CE443C91B48D47600699A19 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		5CE463941B4D5494007A197B /* YFBadgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFBadgeButton.h; sourceTree = "<group>"; };
+		5CE463951B4D5494007A197B /* YFBadgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFBadgeButton.m; sourceTree = "<group>"; };
+		5CE820C01B48FC2A00E741D0 /* YFDiscoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFDiscoverVC.h; sourceTree = "<group>"; };
+		5CE820C11B48FC2A00E741D0 /* YFDiscoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFDiscoverVC.m; sourceTree = "<group>"; };
+		5CE820C61B48FC2A00E741D0 /* YFHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFHomeVC.h; sourceTree = "<group>"; };
+		5CE820C71B48FC2A00E741D0 /* YFHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFHomeVC.m; sourceTree = "<group>"; };
+		5CE820CC1B48FC2A00E741D0 /* YFTabbarViewCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFTabbarViewCtl.h; sourceTree = "<group>"; };
+		5CE820CD1B48FC2A00E741D0 /* YFTabbarViewCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFTabbarViewCtl.m; sourceTree = "<group>"; };
+		5CE820D21B48FC2A00E741D0 /* YFMeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFMeVC.h; sourceTree = "<group>"; };
+		5CE820D31B48FC2A00E741D0 /* YFMeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFMeVC.m; sourceTree = "<group>"; };
+		5CE820D81B48FC2A00E741D0 /* YFMessageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFMessageVC.h; sourceTree = "<group>"; };
+		5CE820D91B48FC2A00E741D0 /* YFMessageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFMessageVC.m; sourceTree = "<group>"; };
+		5CE820DD1B48FC2A00E741D0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CE820DE1B48FC2A00E741D0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CE820E61B48FD2700E741D0 /* UIImage+YF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YF.h"; sourceTree = "<group>"; };
+		5CE820E71B48FD2700E741D0 /* UIImage+YF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YF.m"; sourceTree = "<group>"; };
+		5CE820E91B4901CA00E741D0 /* YFTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFTabbar.h; sourceTree = "<group>"; };
+		5CE820EA1B4901CA00E741D0 /* YFTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFTabbar.m; sourceTree = "<group>"; };
+		5CE820EC1B4910E500E741D0 /* YFTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFTabBarButton.h; sourceTree = "<group>"; };
+		5CE820ED1B4910E500E741D0 /* YFTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFTabBarButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +109,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C06DBAE1B5E712B0065FD3B /* Newfeature */ = {
+			isa = PBXGroup;
+			children = (
+				5C06DBAF1B5E712B0065FD3B /* Controller */,
+				5C06DBB01B5E712B0065FD3B /* Model */,
+				5C06DBB11B5E712B0065FD3B /* VIew */,
+			);
+			path = Newfeature;
+			sourceTree = "<group>";
+		};
+		5C06DBAF1B5E712B0065FD3B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C06DBB21B5E714C0065FD3B /* YFNewfeatureVC.h */,
+				5C06DBB31B5E714C0065FD3B /* YFNewfeatureVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C06DBB01B5E712B0065FD3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C06DBB11B5E712B0065FD3B /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		5C400EF21B63610100692990 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				5C400EF31B63610100692990 /* Controller */,
+				5C400EF41B63610100692990 /* Model */,
+				5C400EF51B63610100692990 /* VIew */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		5C400EF31B63610100692990 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C400EF61B63612200692990 /* YFOAuthVC.h */,
+				5C400EF71B63612200692990 /* YFOAuthVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C400EF41B63610100692990 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C400EF51B63610100692990 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
 		5CB0F87A1B44D86E00E5A992 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +196,7 @@
 		5CB0F8851B44D86E00E5A992 /* 1528-weibo */ = {
 			isa = PBXGroup;
 			children = (
-				5CB0F88A1B44D86E00E5A992 /* AppDelegate.h */,
-				5CB0F88B1B44D86E00E5A992 /* AppDelegate.m */,
-				5CB0F88D1B44D86E00E5A992 /* ViewController.h */,
-				5CB0F88E1B44D86E00E5A992 /* ViewController.m */,
-				5CB0F8901B44D86E00E5A992 /* Main.storyboard */,
-				5CB0F8931B44D86E00E5A992 /* Images.xcassets */,
-				5CB0F8951B44D86F00E5A992 /* LaunchScreen.xib */,
+				5CE820BD1B48FC2A00E741D0 /* classes */,
 				5CB0F8861B44D86E00E5A992 /* Supporting Files */,
 			);
 			path = "1528-weibo";
@@ -96,6 +205,10 @@
 		5CB0F8861B44D86E00E5A992 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5CE443C91B48D47600699A19 /* PrefixHeader.pch */,
+				5CB0F8901B44D86E00E5A992 /* Main.storyboard */,
+				5CB0F8951B44D86F00E5A992 /* LaunchScreen.xib */,
+				5CB0F8931B44D86E00E5A992 /* Images.xcassets */,
 				5CB0F8871B44D86E00E5A992 /* Info.plist */,
 				5CB0F8881B44D86E00E5A992 /* main.m */,
 			);
@@ -117,6 +230,223 @@
 				5CB0F8A11B44D86F00E5A992 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CE820BD1B48FC2A00E741D0 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				5C400EF21B63610100692990 /* OAuth */,
+				5C06DBAE1B5E712B0065FD3B /* Newfeature */,
+				5CE820BE1B48FC2A00E741D0 /* Discover */,
+				5CE820C41B48FC2A00E741D0 /* Home */,
+				5CE820CA1B48FC2A00E741D0 /* Main */,
+				5CE820D01B48FC2A00E741D0 /* Me */,
+				5CE820D61B48FC2A00E741D0 /* Message */,
+				5CE820DC1B48FC2A00E741D0 /* Other */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		5CE820BE1B48FC2A00E741D0 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				5CE820BF1B48FC2A00E741D0 /* Controller */,
+				5CE820C21B48FC2A00E741D0 /* Model */,
+				5CE820C31B48FC2A00E741D0 /* VIew */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		5CE820BF1B48FC2A00E741D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CE820C01B48FC2A00E741D0 /* YFDiscoverVC.h */,
+				5CE820C11B48FC2A00E741D0 /* YFDiscoverVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CE820C21B48FC2A00E741D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CE820C31B48FC2A00E741D0 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F5E1C1B5289B300D7A36F /* YFSearchBar.h */,
+				5C4F5E1D1B5289B300D7A36F /* YFSearchBar.m */,
+				5C4F5E1F1B52907500D7A36F /* IWSearchBar.h */,
+				5C4F5E201B52907500D7A36F /* IWSearchBar.m */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		5CE820C41B48FC2A00E741D0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5CE820C51B48FC2A00E741D0 /* Controller */,
+				5CE820C81B48FC2A00E741D0 /* Model */,
+				5CE820C91B48FC2A00E741D0 /* VIew */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5CE820C51B48FC2A00E741D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CE820C61B48FC2A00E741D0 /* YFHomeVC.h */,
+				5CE820C71B48FC2A00E741D0 /* YFHomeVC.m */,
+				5C46A0501B4E16E4007661A4 /* YFTestVC.h */,
+				5C46A0511B4E16E4007661A4 /* YFTestVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CE820C81B48FC2A00E741D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CE820C91B48FC2A00E741D0 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				5C99B0C81B5A63B700A67EAF /* YFTitleButton.h */,
+				5C99B0C91B5A63B700A67EAF /* YFTitleButton.m */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		5CE820CA1B48FC2A00E741D0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5CE820CB1B48FC2A00E741D0 /* Controller */,
+				5CE820CE1B48FC2A00E741D0 /* Model */,
+				5CE820CF1B48FC2A00E741D0 /* VIew */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5CE820CB1B48FC2A00E741D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CE820CC1B48FC2A00E741D0 /* YFTabbarViewCtl.h */,
+				5CE820CD1B48FC2A00E741D0 /* YFTabbarViewCtl.m */,
+				5C103B9A1B511B74007B423B /* YFNavigationCtl.h */,
+				5C103B9B1B511B74007B423B /* YFNavigationCtl.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CE820CE1B48FC2A00E741D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CE820CF1B48FC2A00E741D0 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				5CE820E91B4901CA00E741D0 /* YFTabbar.h */,
+				5CE820EA1B4901CA00E741D0 /* YFTabbar.m */,
+				5CE820EC1B4910E500E741D0 /* YFTabBarButton.h */,
+				5CE820ED1B4910E500E741D0 /* YFTabBarButton.m */,
+				5CE463941B4D5494007A197B /* YFBadgeButton.h */,
+				5CE463951B4D5494007A197B /* YFBadgeButton.m */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		5CE820D01B48FC2A00E741D0 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				5CE820D11B48FC2A00E741D0 /* Controller */,
+				5CE820D41B48FC2A00E741D0 /* Model */,
+				5CE820D51B48FC2A00E741D0 /* VIew */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		5CE820D11B48FC2A00E741D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CE820D21B48FC2A00E741D0 /* YFMeVC.h */,
+				5CE820D31B48FC2A00E741D0 /* YFMeVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CE820D41B48FC2A00E741D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CE820D51B48FC2A00E741D0 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		5CE820D61B48FC2A00E741D0 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				5CE820D71B48FC2A00E741D0 /* Controller */,
+				5CE820DA1B48FC2A00E741D0 /* Model */,
+				5CE820DB1B48FC2A00E741D0 /* VIew */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		5CE820D71B48FC2A00E741D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CE820D81B48FC2A00E741D0 /* YFMessageVC.h */,
+				5CE820D91B48FC2A00E741D0 /* YFMessageVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CE820DA1B48FC2A00E741D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CE820DB1B48FC2A00E741D0 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		5CE820DC1B48FC2A00E741D0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5CE820DD1B48FC2A00E741D0 /* AppDelegate.h */,
+				5CE820DE1B48FC2A00E741D0 /* AppDelegate.m */,
+				5CE820DF1B48FC2A00E741D0 /* Category */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5CE820DF1B48FC2A00E741D0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5CE820E61B48FD2700E741D0 /* UIImage+YF.h */,
+				5CE820E71B48FD2700E741D0 /* UIImage+YF.m */,
+				5C4F5E191B5282CF00D7A36F /* UIBarButtonItem+YF.h */,
+				5C4F5E1A1B5282CF00D7A36F /* UIBarButtonItem+YF.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,11 +493,13 @@
 		5CB0F87B1B44D86E00E5A992 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YF;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = netcore;
 				TargetAttributes = {
 					5CB0F8821B44D86E00E5A992 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = HCM38H24N8;
 					};
 					5CB0F89B1B44D86F00E5A992 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -219,9 +551,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CB0F88F1B44D86E00E5A992 /* ViewController.m in Sources */,
-				5CB0F88C1B44D86E00E5A992 /* AppDelegate.m in Sources */,
+				5C400EF81B63612200692990 /* YFOAuthVC.m in Sources */,
+				5CE820EB1B4901CA00E741D0 /* YFTabbar.m in Sources */,
+				5C06DBB41B5E714C0065FD3B /* YFNewfeatureVC.m in Sources */,
+				5CE820E01B48FC2A00E741D0 /* YFDiscoverVC.m in Sources */,
+				5CE820E21B48FC2A00E741D0 /* YFTabbarViewCtl.m in Sources */,
+				5C4F5E211B52907500D7A36F /* IWSearchBar.m in Sources */,
+				5C99B0CA1B5A63B700A67EAF /* YFTitleButton.m in Sources */,
+				5C4F5E1E1B5289B300D7A36F /* YFSearchBar.m in Sources */,
+				5C103B9C1B511B74007B423B /* YFNavigationCtl.m in Sources */,
+				5CE820E81B48FD2700E741D0 /* UIImage+YF.m in Sources */,
 				5CB0F8891B44D86E00E5A992 /* main.m in Sources */,
+				5C46A0521B4E16E4007661A4 /* YFTestVC.m in Sources */,
+				5CE820E41B48FC2A00E741D0 /* YFMessageVC.m in Sources */,
+				5CE463961B4D5494007A197B /* YFBadgeButton.m in Sources */,
+				5C4F5E1B1B5282CF00D7A36F /* UIBarButtonItem+YF.m in Sources */,
+				5CE820EE1B4910E500E741D0 /* YFTabBarButton.m in Sources */,
+				5CE820E31B48FC2A00E741D0 /* YFMeVC.m in Sources */,
+				5CE820E11B48FC2A00E741D0 /* YFHomeVC.m in Sources */,
+				5CE820E51B48FC2A00E741D0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +634,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -330,6 +679,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -349,9 +699,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "/Users/yangyuanfeng/Desktop/Demo/Repository/2015year/1528-weibo/PrefixHeader.pch";
 				INFOPLIST_FILE = "1528-weibo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -359,9 +716,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "/Users/yangyuanfeng/Desktop/Demo/Repository/2015year/1528-weibo/PrefixHeader.pch";
 				INFOPLIST_FILE = "1528-weibo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -373,6 +737,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -392,6 +757,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				INFOPLIST_FILE = "1528-weiboTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +784,7 @@
 				5CB0F8A81B44D86F00E5A992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CB0F8A91B44D86F00E5A992 /* Build configuration list for PBXNativeTarget "1528-weiboTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +793,7 @@
 				5CB0F8AB1B44D86F00E5A992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
